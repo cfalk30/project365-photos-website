@@ -6,7 +6,6 @@
   },
   "require": {
     "guzzlehttp/guzzle": "^6.3",
-    "aws/aws-sdk-php": "^3.82",
-    "mnapoli/bref": "^0.3.0"
+    "aws/aws-sdk-php": "^3.82"
   }
 }
