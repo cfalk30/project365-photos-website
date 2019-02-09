@@ -22,7 +22,7 @@ custom: ${file(settings.yml)} # settings
 provider:
   name: aws
   runtime: provided
-  region: us-east-1
+  region: ${self:custom.P365_AWS_REGION}
   memorySize: 128
 
 #  stage: dev
