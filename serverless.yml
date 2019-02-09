@@ -22,7 +22,7 @@ custom: ${file(settings.yml)} # settings
 provider:
   name: aws
   runtime: provided
-  region: eu-west-2
+  region: us-east-1
   memorySize: 128
 
 #  stage: dev
@@ -157,4 +157,3 @@ resources:
 layers:
   php:
     path: layer/php
-
