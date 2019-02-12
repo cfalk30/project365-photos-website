@@ -4,6 +4,9 @@ vendor/
 # Serverless directories
 .serverless
 
+# Bref/SAM files
+.stack.yml
+
 # App-specific
 docs/*.html
 settings.yml
